@@ -142,7 +142,7 @@ body .header .header-nav .nav-hamburger {
 
 @media only screen and (max-width: 50em) {
     body .header .header-nav .nav-hamburger {
-        display: block;
+        display: none;
     }
 }
 
@@ -155,7 +155,11 @@ body .header .header-nav .logo-content {
     align-items: center;
     gap: 5px;
 }
-
+@media screen and (max-width: 650px) {
+    li a {
+        font-size: 10px;
+    }
+}
 body .header .header-nav .logo {
     font-size: 3rem;
     font-weight: 600;
@@ -196,7 +200,7 @@ body .header ul {
 
 @media only screen and (max-width: 50em) {
     body .header ul {
-        display: none;
+        font-size: .5rem;
     }
 }
 
