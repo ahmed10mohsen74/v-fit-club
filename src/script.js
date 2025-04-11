@@ -29,3 +29,20 @@ hamburger.addEventListener("click" , () => {
     console.log("clicked");
     
 })
+
+// if (navigator.geolocation)
+// {
+//   navigator.geolocation.getCurrentPosition(function (position)
+//   {
+//     const lat = position.coords.latitude;
+//     const lng = position.coords.longitude;
+//     const mapUrl = `https://www.google.com/maps?q=${lat},${lng}&hl=ar&z=15&output=embed`;
+//     document.getElementById("map-frame").src = mapUrl;
+//   }, function (error)
+//   {
+//     alert("تعذر تحديد الموقع: " + error.message);
+//   });
+// } else
+// {
+//   alert("المتصفح لا يدعم تحديد الموقع الجغرافي");
+// }
