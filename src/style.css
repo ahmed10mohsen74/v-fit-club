@@ -177,10 +177,10 @@ body .header .header-nav .nav-icon {
     transition: all 0.5s;
 }
 
-@media only screen and (max-width: 50em) {
+@media only screen and (max-width: 700px) {
     body .header .header-nav .nav-icon {
-            height: 20px;
-                width: 20px;
+            height: 19px;
+                width: 19px;
     }
 }
 
