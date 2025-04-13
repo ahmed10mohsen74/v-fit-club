@@ -159,6 +159,7 @@ body .header .header-nav .logo-content {
 @media screen and (max-width: 650px) {
     li a {
         font-size: 9px;
+        letter-spacing: -0.5px;
     }
 }
 
@@ -170,7 +171,7 @@ body .header .header-nav .logo {
 
 @media only screen and (max-width: 50em) {
     body .header .header-nav .logo {
-        font-size: 1rem;
+        font-size: .8rem;
     }
 }
 
