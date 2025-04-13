@@ -271,7 +271,7 @@ body .section-hero {
     justify-content: center;
     background-image: url("https://vfitclub.netlify.app/image/hero-background.webp");
     -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(11px);
     background-size: cover;
 }
 
